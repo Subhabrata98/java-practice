@@ -3,7 +3,7 @@ class primitive {
     {
         byte a = 5;
         short b = 10;
-        long c = 15l;
+        long c = 15L;
         int d = 20;
         float e = 5.26f;
         double f = 2.145675d;
@@ -21,4 +21,5 @@ class primitive {
         System.out.println("Boolean: " + h);
     }
 }
+
 
