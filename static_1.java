@@ -4,10 +4,16 @@ class Mobile{
     int price;
     static String name; //static  effects all the objects . in mob1, we change the name but mob2 also gets changed
     //we have a common variable which will be used by all the object
-
+    // static variable
     public void show(){
         System.out.println(brand + " : " + price + " : " + name);
     }
+
+
+    public static void show1(Mobile mob1){ // static method
+        System.out.println(mob1.brand + " : " + mob1.price + " : " + mob1.name);
+    }
+
 }
 
 
@@ -29,8 +35,8 @@ public class static_1 {
     // mob1.name="Phone";
     Mobile.name = "Phone";
 
-    mob1.show();
-    mob2.show();
+    // mob1.show();
+    Mobile.show1(mob1);
 
     }
 
