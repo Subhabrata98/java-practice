@@ -6,6 +6,11 @@ public class pattern_2 {
                 System.out.print(j);
             }
             System.out.println();
+            //1
+            // 12
+            // 123
+            // 1234
+            // 12345
         }
 
     }
