@@ -11,15 +11,32 @@ class Calc{
     
 }
 
+class A {
+
+    
+}
+
+class B{
+
+
+}
+
+class C{
+
+    
+}
 
 public class inheritance_1 {
     public static void main(String args[]){
-        Calc obj = new Calc();
+        //Calc obj = new Calc();
+        //inheritance_2 obj = new inheritance_2();
+        inheritance_3 obj = new inheritance_3(); 
         int r1 = obj.add(4,5);
-        int r2 = obj.add(7,3);
-        int r3 = obj.add(5,3);
-        int r4 = obj.add(15,4);
+        int r2 = obj.sub(7,3);
+        int r3 = obj.mul(5,3);
+        int r4 = obj.div(15,4);
+        double r5 = obj.power(4,2);
 
-        System.out.println(r1 + "  " + r2 + " " + r3 + " " + r4 );
+        System.out.println(r1 + "  " + r2 + " " + r3 + " " + r4 + " " + r5);
     }
 }
